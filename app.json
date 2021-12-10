@@ -8,7 +8,7 @@
     "test":{
       "scripts": {
         "test-setup": "pip install -r requirements.txt",
-        "test": "pytest tests"
+        "test": "python -mpytest tests"
       }
     }
   },
@@ -19,7 +19,5 @@
     }
   },
   "name": "parfait",
-  "scripts": {
-  },
   "stack": "heroku-18"
 }
