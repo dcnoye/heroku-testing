@@ -7,8 +7,7 @@
   "environments": {
     "test":{
       "scripts": {
-        "test-setup": "pip install -r requirements.txt",
-        "test": "python -mpytest tests"
+        "test-setup": "pip install -r requirements.txt"
       }
     }
   },
