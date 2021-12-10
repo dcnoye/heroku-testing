@@ -15,7 +15,7 @@
   "formation": {
     "web": {
       "quantity": 1,
-      "size": "Standard-1X"
+      "size": "standard-2x"
     }
   },
   "name": "parfait",
