@@ -1,0 +1,25 @@
+{
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "environments": {
+    "test":{
+      "scripts": {
+        "test-setup": "pip install -r requirements-test.txt",
+        "test": "pytest tests/resources/"
+      }
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "Standard-1X"
+    }
+  },
+  "name": "parfait",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
