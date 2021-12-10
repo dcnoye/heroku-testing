@@ -1,4 +1,40 @@
-.vscode/
-.make.*
-*.sqlite
-venv*
+#*
+*.ini
+*.pyc
+*.pyo
+*~
+*venv*
+.DS_Store
+.Python
+.env*
+.idea
+.project
+.pydevproject
+Procfile
+celerybeat-schedule
+env.ini
+include
+lib
+local
+bin
+man/
+!bin/web
+!bin/clone_backend.sh
+!bin/clone_common.sh
+pip-selfcheck.json
+sportspay.iml
+sportspay_fe.iml
+venv
+vm/
+*.swp
+.cache
+celerybeat-schedule.db
+.vim
+postgres-data/
+### VisualStudioCode ###
+.vscode
+.vscode/*      # Maybe .vscode/**/* instead ?
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+**/.history
